@@ -1,0 +1,89 @@
+body {
+	font-family: 'Slabo 27px', serif;z
+
+	}
+.wrap {
+	background: #f2f2f2;
+	width: 750px;
+	margin:0 auto;
+}
+
+.wrapper {
+	width: 690px;
+	margin:0 auto;
+}
+
+h1{
+	font-size: 27px;
+	color:#571507;
+	padding: 10px 0px 10px 0px;
+}
+hr{
+	height: 3px;
+	background: url(../img/wave1.png) repeat-x 0 0;
+    border: 0;
+    opacity: 0.5;
+}
+.section{
+	list-style-type: none;
+}
+.main{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.left img{
+	border-radius: 15px;
+	width: 140px;
+	height: 90px;
+	filter: blur(2px);
+}
+.right{
+	margin-left: 20px;
+	/*flex-grow: 1;*/
+	}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.name, .price {
+	font-size: 20px;
+	color: #bc8e41;
+}
+
+.main:hover .name {
+	color: #979606;
+}
+
+.main:hover .price {
+	color: #118cff;
+}
+
+.main:hover .dot_leaders {
+	border-bottom: dotted #979606;
+}
+
+.main:hover img {
+	filter: blur(0px);
+}
+
+.dot_leaders{
+	border-bottom: dotted #8c8b8b;
+	flex-grow: 1;
+}
+
+.price {
+	font-size: 20px;
+	color: #979606;
+}
+
+.description{
+	display: block;
+	font-size: 14px;
+	line-height: 28px;
+
+}
